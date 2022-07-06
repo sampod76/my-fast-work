@@ -5,7 +5,7 @@ margin:0;
 }
 
 .coverpic{
-    background-image:url(images/donation12.png);
+    background-image:url(images/donation100.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -13,20 +13,27 @@ margin:0;
 
 .overlay{
     text-align:center;
-    padding:200px;
+    padding:200px 300px;
     color:white;
 
     
     
 }
 .batton{
+    
     text-decoration:none;
     color:white;
-    background-image:linear-gradient(#D97E3B,#cfdd07);
-    padding:10px;
-    border-radius:20px;
+    background-color:#FF5959;
+    padding:15px;
+    border-radius:10px;
 
 }
+
+.batton-margin{
+    padding-top:30px;
+
+}
+
 h1{
     font-size:50px;
 }
@@ -47,7 +54,14 @@ h1{
     margin-left: 1%;
     margin-right:1%;
     border-radius:50px;
-    box-shadow:10px 10px 20px gray;
+    box-shadow:10px 10px 10px gray;
+}
+#amount200{
+    border:3px solid red;
+    border-radius:50px;
+}
+#amount200-text{
+    color:red;
 }
 .amount{
     text-align: center;
@@ -100,13 +114,53 @@ h1{
 }
 
 .images-size{
-   width:80%;
+   width:90%;
 }
 
 #images-stand{
- padding-left:50px;
+ 
+ border-radius:20px;
+ margin-left: 30px;
 }
 
 #images-hand{
+    border-radius:20px;
+}
 
+.donation-help{
+    display: flex;
+    margin:5% 12%;
+    
+}
+
+.end-part{
+    background-color: #FFF4D6;
+    padding:80px;
+    margin-left:25%;
+    margin-right:25%;
+    border-radius:15px;
+   
+
+}
+
+#contacts{
+    border-radius:10px;
+    background-color: #D9D9D9;
+    display: flex;
+    
+}
+
+#contacts-text-email{
+    color:#ABA0A0 ;
+    padding-left:30px;
+    width:75%;
+
+}
+
+#contacts-text-subscribe{
+    padding-left:80px;
+    width:25%;
+ background-color:#FF5959 ;
+ color: white;
+ 
 }
